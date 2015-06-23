@@ -75,7 +75,7 @@ AUTH_LDAP_SENTRY_ORGANIZATION_MEMBER_TYPE = 'MEMBER'
 AUTH_LDAP_SENTRY_ORGANIZATION_GLOBAL_ACCESS = True
 
 AUTHENTICATION_BACKENDS = AUTHENTICATION_BACKENDS + (
-    'sentry_ldap_auth.backend.SentryLdapBackend',
+    'sentry_ldap_auth.backend.SentryRemoteLdapBackend',
 )
 
 import logging
