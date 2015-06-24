@@ -9,7 +9,7 @@ an LDAP server and auto-adds them to the an organization in sentry.
 from setuptools import setup, find_packages
 
 install_requires = [
-    'django-remote-auth-ldap',
+    'django-auth-ldap',
     'sentry>=7.4.0',
 ]
 
